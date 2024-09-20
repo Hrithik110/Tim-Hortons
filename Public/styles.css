@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(203, 26, 26);
+
+  }
+  .bannerContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    margin: 20px;
+    flex-wrap: wrap;
+
+  }
+  .bannerContainer h1{
+    margin: 0 !important;
+    font-size: 120px;
+  }
+  .content{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+  }
+  .box{
+    display: flex;
+    background-color: #FFF;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    width: 600px;
+    color: rgb(203, 26, 26);
+    font-size: 60px;
+    height: 120px;
+    padding: 10px;
+  }
+  .box h2{
+    margin: 0 !important;
+  }
+  .orderContainer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100px;
+    margin: 10px 0 0 20px;
+    padding: 4px;
+    color: blueviolet;
+    background-color: #FFF;
+  }
+  .orderContainer p{
+    margin-left: 10px;
+    font-size: 30px;
+  }
+
+  .first{
+    display: flex; 
+    flex-direction: column;
+     flex-wrap: wrap;
+      width: 700px;
+  }
+  .bannerImg{
+    height: 150px;
+  }
+  .logo{
+    height: 270px;
+  }
+  @media (max-width:900px) {
+    .bannerImg{
+      height: 100px;
+    }
+    .bannerContainer{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #FFF;
+      flex-wrap: wrap;
+  
+    }
+    .logo{
+      height: 120px;
+    }
+    .bannerContainer h1{
+      margin: 0 !important;
+      font-size: 80px;
+    }
+    .content{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .box{
+      display: flex;
+      background-color: #FFF;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      margin-left: 20px;
+      margin: 20px;
+      width: 400px;
+      color: rgb(203, 26, 26);
+      font-size: 40px;
+      padding: 10px;
+    }
+    .box h2{
+      margin: 0 !important;
+    }
+    .orderContainer{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      width: 60px;
+      margin: 10px 0 0 20px;
+      padding: 4px;
+      color: blueviolet;
+      background-color: #FFF;
+    }
+    .orderContainer p{
+      margin-left: 10px;
+      font-size: 15px;
+    }
+    .first{
+      display: flex; 
+      flex-direction: column;
+       flex-wrap: wrap;
+        width: 500px;
+    }
+  }
